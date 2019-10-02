@@ -7,18 +7,8 @@
 <body>
  
     
- <div style="border:2px solid #666; border-radius:11px; padding:20px;">
 
-<iframe id="form-iframe" src="https://script.google.com/macros/s/AKfycbxG4Is9hcvwmMabL4cU3NKUyneOGOFlhLrWhaJk/exec" style="margin:0; width:100%; height:800px; border:none; overflow:hidden;" scrolling="no" onload="AdjustIframeHeightOnLoad()"></iframe>
-
-<script type="text/javascript">
-function AdjustIframeHeightOnLoad() { document.getElementById("form-iframe").style.height = document.getElementById("form-iframe").contentWindow.document.body.scrollHeight + "px"; }
-function AdjustIframeHeight(i) { document.getElementById("form-iframe").style.height = parseInt(i) + "px"; }
-</script>
-
-</div>
-
-
+<iframe id="testimonials" name="testimonials" src="https://script.google.com/macros/s/AKfycbxG4Is9hcvwmMabL4cU3NKUyneOGOFlhLrWhaJk/exec"; allowtransparency="true" onload="this.style.height=(this.contentDocument.body.scrollHeight+45) +'px';" scrolling="no" style="width:100%;border:none;"></iframe>
     
     
 </body>
